@@ -1,5 +1,5 @@
 letsencrypt:
-  image: odon/rancher-letsencrypt:v0.3.1
+  image: rveillerot/rancher-letsencrypt:v0.3.1
   environment:
     EULA: ${EULA}
     API_VERSION: ${API_VERSION}
